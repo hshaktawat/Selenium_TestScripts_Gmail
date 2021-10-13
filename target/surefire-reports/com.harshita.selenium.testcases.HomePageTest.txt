@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.harshita.selenium.testcases.HomePageTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 127.952 sec <<< FAILURE!
+TC_01(com.harshita.selenium.testcases.HomePageTest)  Time elapsed: 58.151 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Email should be present in the account] but found [There is no email in the account]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at com.harshita.selenium.testcases.HomePageTest.TC_01(HomePageTest.java:29)
+

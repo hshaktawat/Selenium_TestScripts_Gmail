@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automated_TestSuite" time-out="300000">
+<listeners>
+       <listener class-name="com.harshita.selenium.util.Listener"/>
+  </listeners>
+	<test name="TestSuite">
+		<classes>
+			<class name="com.harshita.selenium.testcases.HomePageTest"></class>
+		</classes>
+	</test>
+</suite>
